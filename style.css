@@ -39,6 +39,11 @@ button:disabled, input:disabled { opacity:.5; cursor:not-allowed; }
 .comparison-chart { display:block; width:100%; height:auto; }
 .comparison-chart .point { cursor:default; }
 .comparison-chart .adjusted-point { fill:#c17b23; }
+.comparison-chart .quadrant-same { fill:#f28c18; }
+.comparison-chart .quadrant-opposite { fill:#e74791; }
+.comparison-chart .quadrant-axis { fill:#2276dc; }
+.standardized-axes line { stroke:#50606d; stroke-width:1.8; }
+.zero-axis-label { fill:#263844; font-size:12px; paint-order:stroke; stroke:white; stroke-width:3px; }
 .comparison-chart .axis-label { font-size:13px; }
 .comparison-chart .tick { font-size:12px; }
 .secondary-button { border:1px solid #c9d2da; border-radius:5px; padding:7px 12px; background:white; color:var(--navy); cursor:pointer; font:inherit; font-size:12px; }
@@ -53,3 +58,4 @@ button:disabled, input:disabled { opacity:.5; cursor:not-allowed; }
 .outlier-point:hover,.outlier-point:focus { fill:#c17b23; stroke:var(--navy); stroke-width:2; outline:none; }
 .outlier-point:active { cursor:grabbing; }
 .outlier-empty { fill:#64717d; font-size:17px; pointer-events:none; }
+
